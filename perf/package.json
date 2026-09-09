@@ -1,0 +1,17 @@
+{
+  "name": "perf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "artillery": "artillery",
+    "api": "artillery run rates.yaml -e api",
+    "scenario": "./run-scenario.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "2.0.22",
+    "artillery-plugin-statsd": "^2.2.1"
+  }
+}
